@@ -28,8 +28,8 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cd7-Sw-nWP">
-                                <rect key="frame" x="164" y="70" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <rect key="frame" x="157" y="70" width="60" height="30"/>
+                                <state key="normal" title="Push Me"/>
                                 <connections>
                                     <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3Xz-Lk-oLi"/>
                                 </connections>
