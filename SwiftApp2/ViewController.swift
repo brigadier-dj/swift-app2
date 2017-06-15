@@ -19,9 +19,13 @@ class ViewController: UIViewController {
     
     @IBAction func buttonTapped(_ sender: AnyObject) {
         
+        var addition = true
+        
         coolLabel.text = "Answer : \(Double(text1.text!)! + Double(text2.text!)!)"
     
     }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
